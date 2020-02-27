@@ -1,7 +1,13 @@
 import sys
 
-class MyExceptI(Exception): pass
-class MyExceptII(Exception): pass
+
+class MyExceptI(Exception):
+    pass
+
+
+class MyExceptII(Exception):
+    pass
+
 
 def func1():
     try:
